@@ -6,17 +6,16 @@
 
   <groupId>com.qiao</groupId>
   <artifactId>dubbo-study</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>study-interface</module>
-      <module>study-provider</module>
-      <module>study-comsumer</module>
-    </modules>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <modules>
+      <module>study-interface</module>
+    <module>study-provider</module>
+    <module>study-consumer</module>
+      <module>study-boot-provider</module>
+  </modules>
 
-    <name>dubbo-study</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <name>dubbo-study</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
