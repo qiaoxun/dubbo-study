@@ -1,6 +1,8 @@
 package com.qiao.domain;
 
-public class InstanceStats {
+import java.io.Serializable;
+
+public class InstanceStats implements Serializable {
     private int id;
     private String host;
     private String url;
