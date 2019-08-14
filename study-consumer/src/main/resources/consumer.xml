@@ -17,5 +17,5 @@
     <!-- 使用zookeeper暴露服务地址 -->
     <dubbo:registry address="zookeeper://127.0.0.1:2181" />
 
-    <dubbo:reference interface="com.qiao.service.InstanceStatsService" id="instanceStatsService" />
+    <dubbo:reference interface="com.qiao.service.InstanceStatsService" id="instanceStatsService" stub="com.qiao.service.StubInstanceStatsService" />
 </beans>
